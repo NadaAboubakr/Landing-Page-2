@@ -20,7 +20,7 @@ function App() {
               Nada Aboubakr
             </h1>
             <p className="mt-3 max-w-md mx-auto text-xl text-gray-300 sm:text-2xl md:mt-5 md:max-w-3xl">
-            Turning numbers into stories, one dataset at a time.
+            Turning numbers into stories.
             </p>
             <div className="mt-5 max-w-md mx-auto flex justify-center space-x-4">
               <a href="https://github.com/NadaAboubakr" className="text-gray-400 hover:text-white">
