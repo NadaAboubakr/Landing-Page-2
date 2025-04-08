@@ -20,7 +20,7 @@ function App() {
               Nada Aboubakr
             </h1>
             <p className="mt-3 max-w-md mx-auto text-xl text-gray-300 sm:text-2xl md:mt-5 md:max-w-3xl">
-              Unlocking Insights With Data
+            Turning numbers into stories, one dataset at a time.
             </p>
             <div className="mt-5 max-w-md mx-auto flex justify-center space-x-4">
               <a href="https://github.com/NadaAboubakr" className="text-gray-400 hover:text-white">
@@ -142,6 +142,19 @@ function App() {
               </a>
             </div>
             <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
+              <h3 className="text-xl font-semibold text-white-900">Coronary Heart Disease Risk Assessment</h3>
+              <p className="text-gray-300 mt-4">
+              Implemented a supervised learning pipeline on the Framingham Heart Study dataset to predict 10-year coronary heart disease risk, 
+              achieving 89% accuracy, and deployed it with a custom-built GUI for streamlined user interaction.
+              </p>
+              <a 
+                href="https://github.com/NadaAboubakr/Coronary-Heart-Disease-Prediction_ALX_AIS3_M1d" 
+                className="inline-flex items-center mt-4 text-blue-600 hover:text-blue-700"
+              >
+                View Project <ExternalLink size={16} className="ml-1" />
+              </a>
+            </div>
+            <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
               <h3 className="text-xl font-semibold text-white-900">Mortgage Backed Securities Prediction</h3>
               <p className="text-gray-300 mt-4">
                 Utilized supervised machine learning to predict mortgage-backed securities prepayment risk, 
@@ -157,8 +170,8 @@ function App() {
             <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
               <h3 className="text-xl font-semibold text-white-900">Arabic Suicide Post Detection</h3>
               <p className="text-gray-300 mt-4">
-                Developed an NLP-based software application for detecting suicidal posts in Modern Standard 
-                Arabic, contributing to mental health awareness initiatives.
+              Collaborated on an NLP-driven project under the OMDENA Alexandria Chapter to build a software application 
+              capable of detecting suicidal content in Modern Standard Arabic, supporting efforts to promote mental health awareness.
               </p>
               <a 
                 href="https://drive.google.com/file/d/17cjQF-PvGlZ4WXUbAHrks1xP_DPP1lm5/view?usp=sharing" 
