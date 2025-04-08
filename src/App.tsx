@@ -1,5 +1,6 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Mail, MapPin, Phone, ExternalLink, GraduationCap, Briefcase, FileText, Code } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, Phone, ExternalLink, GraduationCap, Briefcase, FileText, Code } from 'lucide-react';
+import { SiX } from 'react-icons/si';
 import GalaxyBackground from "./GalaxyBackground";
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
                 <Linkedin size={24} />
               </a>
               <a href="https://x.com/_nada81" className="text-gray-400 hover:text-white">
-                <Twitter size={24} />
+                <SiX size={24} />
               </a>
             </div>
           </div>
@@ -227,7 +228,7 @@ function App() {
               <Linkedin size={24} />
             </a>
             <a href="https://x.com/_nada81" className="text-gray-400 hover:text-white">
-              <Twitter size={24} />
+              <SiX size={24} />
             </a>
           </div>
         </div>
