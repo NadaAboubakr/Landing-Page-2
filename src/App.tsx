@@ -209,7 +209,7 @@ function App() {
         {/* Resume Section */}
         <section className="text-center">
           <a 
-            href="/Resume.pdf" 
+            href="https://drive.google.com/file/d/1_n_0wwmfwNi3KtnUFEm_PkgU4iy9jmz_/view?usp=sharing" 
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-sm"
           >
             <FileText className="mr-2" size={20} />
