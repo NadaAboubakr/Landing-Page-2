@@ -1,4 +1,3 @@
-import React from 'react';
 import { Github, Linkedin, Mail, MapPin, Phone, ExternalLink, GraduationCap, Briefcase, FileText, Code } from 'lucide-react';
 import { SiX } from 'react-icons/si';
 import GalaxyBackground from "./GalaxyBackground";
@@ -56,19 +55,14 @@ function App() {
             <GraduationCap className="text-blue-600 mr-2" size={24} />
             <h2 className="text-2xl font-bold text-white mb-6">Education</h2>
           </div>
-          <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
-            <h3 className="text-xl font-semibold text-white">Alexandria University</h3>
-            <p className="text-gray-300 mt-2">Bachelor of Computer Science in Data Science (2020 - 2024)</p>
-            <p className="text-gray-300 mt-1">CGPA: 3.407</p>
-            <div className="mt-4">
-              <h4 className="font-medium text-blue-300 hover:underline">
-                <a href="https://www.linkedin.com/posts/nadaaboubakr_graduationproject-drugguardianpro-datascience-activity-7214317777703079936-ZE2t?utm_source=share&utm_medium=member_desktop">
-                  Graduation Project | Enhancing Drug Combination Safety
-                </a>
-              </h4>
-              <p className="text-gray-300 mt-2">
-                Designed deep learning models to forecast drug-drug interactions using gene expression and chemical structure data. Constructed 978-dimensional feature vectors, ensuring scalable, interpretable, and robust predictions. Collaborated with a cross-functional team to develop and deploy a cloud-based user interface.
-              </p>
+          <div className="space-y-6">
+            <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
+              <h3 className="text-xl font-semibold text-white">Hamad Bin Khalifa University</h3>
+              <p className="text-gray-300 mt-2">Master of Data Analytics in Health Management (2025 - now)</p>
+            </div>
+            <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
+              <h3 className="text-xl font-semibold text-white">Alexandria University</h3>
+              <p className="text-gray-300 mt-2">Bachelor of Computer Science in Data Science (2020 - 2024)</p>
             </div>
           </div>
         </section>
@@ -82,7 +76,16 @@ function App() {
           </div>
           <div className="space-y-6">
           <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
-              <h3 className="text-xl font-semibold text-white-900">Freelancer Data Annotator for LLM Development</h3>
+              <h3 className="text-xl font-semibold text-white-900">Applied AI Engineer Intern</h3>
+              <p className="text-gray-300 mt-1">Q-Auto</p>
+              <p className="text-gray-300 mt-4 leading-relaxed">
+              Developed a secure, offline financial assistant with LLM capabilities for automated loan support and chatbot Q&A.
+              Built an internal AI-powered search engine with custom embeddings and RAG integration (LlamaIndex, FAISS, Ollama) to enhance response accuracy.
+              Implemented conversation memory with scalable database options (SQLite, MongoDB, PostgreSQL) for efficient assistant performance.
+              </p>
+            </div>
+          <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
+              <h3 className="text-xl font-semibold text-white-900">Data Annotator for LLM Development</h3>
               <p className="text-gray-300 mt-1">Appen</p>
               <p className="text-gray-300 mt-4 leading-relaxed">
               Created complex Arabic questions to assess LLM comprehension, 
@@ -91,7 +94,7 @@ function App() {
               </p>
             </div>
             <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
-            <h3 className="text-xl font-semibold text-white-900">IBM Data Scientist Track Intern</h3>
+            <h3 className="text-xl font-semibold text-white-900">IBM Data Scientist Track Trainee</h3>
               <p className="text-gray-300 mt-1">Digital Egypt Pioneers Initiative (DEPI) – Ministry of Communications and Information Technology, Egypt</p>
               <p className="text-gray-300 mt-4 leading-relaxed">
               I completed a six-month data science program focused on machine learning and IBM technologies, where I gained hands-on experience in Python, 
@@ -127,6 +130,15 @@ function App() {
             <h2 className="text-2xl font-bold text-white mb-6">Projects</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
+              <h3 className="text-xl font-semibold text-white-900">PocketAI: A Multipurpose Assistant</h3>
+              <p className="text-gray-300 mt-4">
+              Secure offline AI financial assistant with large language model (LLM) capabilities, 
+              eliminating dependency on external APIs. The system integrates a RAG architecture (LlamaIndex, FAISS, Ollama), 
+              custom embeddings for internal search, and a scalable conversation memory database, enabling accurate decision support, document retrieval, 
+              and chatbot Q&A in a fully private environment.
+              </p>
+            </div>
           <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
               <h3 className="text-xl font-semibold text-white-900">Enhancing Drug Combination Safety</h3>
               <p className="text-gray-300 mt-4">
