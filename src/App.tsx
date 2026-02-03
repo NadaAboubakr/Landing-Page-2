@@ -42,9 +42,10 @@ function App() {
           <div className="bg-gray-800 rounded-2xl shadow-sm p-8">
             <h2 className="text-2xl font-bold text-white mb-6">About Me</h2>
             <p className="text-gray-300 leading-relaxed">
-              A Data Scientist, passionate about transforming complex data into actionable insights. 
-              With experience in machine learning, predictive modeling, and data analysis, I strive to 
-              create impactful solutions that drive decision-making and innovation.
+            Data Scientist and Applied AI Engineer with experience developing ML and LLM-based systems across finance and healthcare. 
+            Built secure offline AI assistants, RAG-powered search tools, and a decision-support application that improved data autonomy 
+            and operational efficiency. Strong background in data processing, statistical analysis, and dashboard development, with proven 
+            contributions to real-world analytics and automation projects.
             </p>
           </div>
         </section>
@@ -58,7 +59,7 @@ function App() {
           <div className="space-y-6">
             <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
               <h3 className="text-xl font-semibold text-white">Hamad Bin Khalifa University</h3>
-              <p className="text-gray-300 mt-2">Master of Data Analytics in Health Management (2025 - now)</p>
+              <p className="text-gray-300 mt-2">Master of Data Analytics in Health Management (2025 - Now)</p>
             </div>
             <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
               <h3 className="text-xl font-semibold text-white">Alexandria University</h3>
@@ -75,13 +76,22 @@ function App() {
             <h2 className="text-2xl font-bold text-white mb-6">Professional Experience</h2>
           </div>
           <div className="space-y-6">
+            <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
+              <h3 className="text-xl font-semibold text-white-900">Data Analyst Institutional Impact Intern</h3>
+              <p className="text-gray-300 mt-1">Qatar Foundation</p>
+              <p className="text-gray-300 mt-4 leading-relaxed">
+              Processed, and analyzed alumni survey data using Python and Excel to improve data quality and ensure reliable, reproducible analysis. 
+              Applied statistical methods to support the development of alumni personas and collaborated with senior analysts to interpret results and standardize analytical workflows, contributing insights for the WISE Conference. 
+              Additionally, analyzed and reported 2025 QF Alumni Forum feedback to inform improvements for future forums and led the design of the 2025 Alumni Tracer Study for QF alumni.
+              </p>
+            </div>
           <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
               <h3 className="text-xl font-semibold text-white-900">Applied AI Engineer Intern</h3>
               <p className="text-gray-300 mt-1">Q-Auto</p>
               <p className="text-gray-300 mt-4 leading-relaxed">
-              Developed a secure, offline financial assistant with LLM capabilities for automated loan support and chatbot Q&A.
-              Built an internal AI-powered search engine with custom embeddings and RAG integration (LlamaIndex, FAISS, Ollama) to enhance response accuracy.
-              Implemented conversation memory with scalable database options (SQLite, MongoDB, PostgreSQL) for efficient assistant performance.
+              Developed a decision-making LLM assistant for a vehicle financing application to automate loan decisions, chatbot Q&A, and internal search, using RAG architecture (LlamaIndex, Weviate) with custom embeddings and secure API communication, 
+              and conducted black-box QA testing for the financing portal and HR system. Separately, 
+              designed a secure offline AI assistant with LLM capabilities, implementing conversation memory and evaluating SQLite, MongoDB, and PostgreSQL for scalability, fully eliminating dependency on external APIs.
               </p>
             </div>
           <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
@@ -97,7 +107,7 @@ function App() {
             <h3 className="text-xl font-semibold text-white-900">IBM Data Scientist Track Trainee</h3>
               <p className="text-gray-300 mt-1">Digital Egypt Pioneers Initiative (DEPI) – Ministry of Communications and Information Technology, Egypt</p>
               <p className="text-gray-300 mt-4 leading-relaxed">
-              I completed a six-month data science program focused on machine learning and IBM technologies, where I gained hands-on experience in Python, 
+              Completed a six-month data science program focused on machine learning and IBM technologies, where I gained hands-on experience in Python, 
               data visualization, and model development. 
               As part of the program, I built a machine learning model to predict the ten-year risk of coronary heart disease using the Framingham Heart Study dataset, 
               and designed a graphical user interface to make the tool more accessible and user-friendly.
@@ -113,7 +123,7 @@ function App() {
               </p>
             </div>
             <div className="bg-gray-900 bg-opacity-90 rounded-2xl shadow-lg p-8 border border-gray-900">
-            <h3 className="text-xl font-semibold text-white-900">IT & Telecom Intern</h3>
+            <h3 className="text-xl font-semibold text-white-900">Data Analysis Intern</h3>
               <p className="text-gray-300 mt-1">Al-Ahli Hospital</p>
               <p className="text-gray-300 mt-4 leading-relaxed">
                 Engaged in data analysis endeavors and crafted insightful dashboards catering to the 
@@ -234,7 +244,7 @@ function App() {
         {/* Resume Section */}
         <section className="text-center">
           <a 
-            href="https://drive.google.com/file/d/1-e5WZ5TV42JCuy2gDujkVyGNlf-2_Dyg/view?usp=sharing" 
+            href="https://drive.google.com/file/d/12vycqiGaN04-GIIZ8dvw_F2busN8afE-/view?usp=sharing"
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 shadow-sm"
           >
             <FileText className="mr-2" size={20} />
