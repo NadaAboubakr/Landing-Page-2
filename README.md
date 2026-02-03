@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my portfolio website! This site showcases my journey, projects, skills, and professional experiences as a data scientist. 
+Welcome to my portfolio website. This site showcases my education, projects, skills, and professional experiences as a data scientist. to access the portofolio please visit : https://nadaaboubakr.netlify.app/
 
 ## Table of Contents
 
